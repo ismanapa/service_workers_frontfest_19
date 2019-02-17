@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>01 Blocking ui</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../style.css" />
+    <style>
+        @keyframes example {
+            0% {
+                left: 0;
+            }
+
+            50% {
+                left: 100%;
+            }
+
+            100% {
+                left: 0;
+            }
+        }
+
+        /* The element to apply the animation to */
+        .animatedDiv {
+            width: 20px;
+            height: 20px;
+            background-color: red;
+            animation-name: example;
+            animation-duration: 4s;
+            animation-iteration-count:infinite;
+            position: relative;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <main class="container">
+        <div class="card broken-images">
+            <h3>Blocking ui</h3>
+            <div class="animatedDiv"></div>
+            <button id="startNoSW">Start no SW</button>
+            <button id="startSW">Start SW</button>
+        </div>
+        <nav><a href="../index.html">Home</a></nav>
+    </main>
+    <script src="/01_blocking_ui/getPrimes.js"></script>
+    <script src="/01_blocking_ui/script.js"></script>
+</body>
+
+</html>

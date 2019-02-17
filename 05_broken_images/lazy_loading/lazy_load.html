@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>05 Broken Images - Lazy Load</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../../style.css" />
+</head>
+
+<body>
+
+    <main class="container">
+        <div class="card broken-images">
+            <h3>Lazy Load</h3>
+            <div class="image-wrapper">
+                <img src="/05_broken_images/lazy_loading/happy.jpg" alt="">
+                <p>Valid image</p>
+            </div>
+            <div class="image-wrapper">
+                <img data-src="/05_broken_images/lazy_loading/happy-broken.jpg" alt="">
+                <p>Lazy loading</p>
+            </div>
+        </div>
+        <nav><a href="../index.html">Home</a></nav>
+    </main>
+    <script src="/05_broken_images/lazy_loading/script.js"></script>
+</body>
+
+</html>

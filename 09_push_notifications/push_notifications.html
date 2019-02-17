@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>09 Push Notifications</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../style.css" />
+</head>
+
+<body>
+    <main class="container">
+        <div class="card push-notifications">
+            <h3>Push Notifications</h3>
+            <div>
+                <a target="_blank" href="https://web-push-codelab.glitch.me/">Push Companion</a>
+                <textarea rows="4" type="text" id="serverPublicKey"></textarea>
+                <button id="enablePushButton" disabled>Enable Notifications</button>
+            </div>
+
+            <div class="is-invisible" id="subscriptionContainer">
+                <h4>Push Notifications info</h4>
+                <pre><code id="subscriptioInfo"></code></pre>
+            </div>
+        </div>
+        <nav><a href="../index.html">Home</a></nav>
+    </main>
+    <script src="/09_push_notifications/script.js"></script>
+</body>
+
+</html>

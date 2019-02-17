@@ -1,0 +1,23 @@
+{
+  "name": "duendecillos_navegador",
+  "version": "1.0.0",
+  "description": "Ejemplos para la charla \"Duendecilos en tu navegador\" dada en el frontfest 2019",
+  "main": "index.html",
+  "scripts": {
+    "start": "static-server",
+    "lint": "eslint **/*.js --ignore-pattern node-modules"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://IsmaelNavarro@bitbucket.org/IsmaelNavarro/teo_va_al_frontfest_code.git"
+  },
+  "author": "Paqui Calabria & Ismael Navarro",
+  "license": "MIT",
+  "homepage": "https://bitbucket.org/IsmaelNavarro/teo_va_al_frontfest_code#readme",
+  "devDependencies": {
+    "eslint": "^5.12.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.14.0",
+    "static-server": "^2.2.1"
+  }
+}
